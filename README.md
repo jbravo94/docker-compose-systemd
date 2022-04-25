@@ -1,7 +1,7 @@
 Docker compose as a systemd unit
+================================
 
 Credits: https://gist.github.com/mosquito/b23e1c1e5723a7fd9e6568e5cf91180f
-================================
 
 Create file `/etc/systemd/system/docker-compose@.service`. SystemD calling binaries using an absolute path. In my case is prefixed by `/usr/local/bin`, you should use paths specific for your environment.
 
